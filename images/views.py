@@ -2,5 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 # Create your views here.
-def images(request):
-    
+# def images(request):
+
+def welcome(request):
+    return render(request, 'welcome.html')
+

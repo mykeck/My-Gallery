@@ -9,9 +9,9 @@ from decouple import config,Csv
 def images(request):
 
     images=Image.objects.all()
-    ALLOWED_HOSTS = config('ALLOWED_HOSTS')
+    # ALLOWED_HOSTS = config('ALLOWED_HOSTS')
 
-    return render(request,'images.html',{"images":images,"ALLOWED_HOSTS":ALLOWED_HOSTS})
+    return render(request,'images.html',{"images":images})
 
 def search_results(request):
     if 'image' in request.GET and request.GET["image"]:

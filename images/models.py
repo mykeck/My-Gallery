@@ -33,7 +33,7 @@ class Categories(models.Model):
         cls.objects.filter(category=category).delete        
         
     
-class image(models.Model):
+class Image(models.Model):
     title = models.CharField(max_length=60)
     categories = models.ForeignKey(Categories,on_delete=models.CASCADE)
     location = models.ForeignKey(Location,on_delete= models.CASCADE)

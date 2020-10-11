@@ -11,7 +11,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark primary-color">
 
     <!-- Navbar brand -->
-    <a class="navbar-brand" href="#" style="font-size: 27px;">My Gallery</a>
+    <a class="navbar-brand" href="{%url 'Images'%}" style="font-size: 27px;">My Gallery</a>
   
     <!-- Collapse button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -47,9 +47,9 @@
       </ul>
       <!-- Links -->
   
-      <form class="form-inline">
+      <form class="form-inline" role="search" action="{%url 'search_results'%}">
         <div class="md-form my-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search Image" name="image">
         </div>
       </form>
     </div>

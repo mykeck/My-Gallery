@@ -3,6 +3,6 @@ from . import views
 
 
 urlpatterns = [
-    url('^$',views.welcome,name='welcome'),
+    url('^$',views.images,name='Images'),
     # url(r'^$',views.images,name='Images'),
 ]

@@ -26,3 +26,9 @@ def search_results(request):
         return render(request,'search.html',{"message":message})     
     
 
+def oneimage(request,image_id):
+    try:
+        image = Image.objects.get(id=image_id)
+    except DoesNotExist:
+        raise Http404()
+    return render(request,'single_image.html',{"image":image})

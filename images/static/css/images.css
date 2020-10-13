@@ -1,0 +1,12 @@
+/* #base{
+    background-color: aquamarine;
+} */
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond|EB+Garamond|Karma|Neucha|Overlock|Tangerine');
+
+h1{
+    font-size: 75px;
+    font-family: 'Tangerine', cursive;
+}
+.container{
+    background-color: aquamarine;
+}

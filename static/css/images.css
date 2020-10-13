@@ -25,4 +25,7 @@ img {
     transition: .5s ease;
     backface-visibility: hidden;
   }
+  .hover:hover img {
+    opacity: 0.7;
+  }
   

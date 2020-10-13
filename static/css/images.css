@@ -10,6 +10,19 @@ h1{
 .container{
     background-color: aquamarine;
 }
-.modal fade{
-    align-items: center;
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../img/brigitta.jpg) fixed;
+  
+    background-position:0% 51%;
+    background-size:cover;
+    background-repeat:repeat
 }
+img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  

@@ -9,7 +9,7 @@ h1{
     color: blanchedalmond;
 }
 body{
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("https://images.pexels.com/photos/279376/pexels-photo-279376.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../pexelbackground.webp) fixed;
   
     background-position:0% 51%;
     background-size:cover;

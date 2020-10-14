@@ -9,7 +9,8 @@ h1{
     color: blanchedalmond;
 }
 body{
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../pexelbackground.webp) fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ),  fixed;
+    background-image: url('/static/pexelbackground.webp');
   
     background-position:0% 51%;
     background-size:cover;
